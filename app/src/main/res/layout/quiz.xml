@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#99ff33"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Zgadywanki :)"
+            android:textSize="30dp"
+            android:id="@+id/tytul" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="co to za zwierzę:"
+            android:textSize="30dp"
+            android:id="@+id/quest1"
+            android:layout_marginTop="50dp"
+            android:layout_below="@id/tytul" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/strus"
+            android:src="@drawable/strus"
+            android:layout_below="@id/quest1"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/strus"
+            android:id="@+id/r1"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Struś"
+                android:id="@+id/r1t" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Łoś"
+                android:id="@+id/r1f" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="co to za zwierzę:"
+            android:textSize="30dp"
+            android:id="@+id/quest2"
+            android:layout_marginTop="50dp"
+            android:layout_below="@id/strus" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/slon"
+            android:src="@drawable/slon"
+            android:layout_below="@id/quest2"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/slon"
+            android:id="@+id/r2"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hipopotan"
+                android:id="@+id/r2f" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Słoń"
+                android:id="@+id/r2t" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Z jakiego filmu to kadr:"
+            android:textSize="30dp"
+            android:id="@+id/quest3"
+            android:layout_marginTop="50dp"
+            android:layout_below="@id/slon" />
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/ogniem"
+            android:src="@drawable/ogniem"
+            android:layout_below="@id/quest3"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/ogniem"
+            android:id="@+id/r3"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ogniem i mieczem"
+                android:id="@+id/r3t" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Potop"
+                android:id="@+id/r3f" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jak się nazywa ten człowiek:"
+            android:textSize="30dp"
+            android:id="@+id/quest4"
+            android:layout_marginTop="50dp"
+            android:layout_below="@id/ogniem" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/keke"
+            android:src="@drawable/keke"
+            android:layout_below="@id/quest4"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/keke"
+            android:id="@+id/r4"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Piotr Siara"
+                android:id="@+id/r4t" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Piotr Siarka"
+                android:id="@+id/r4f" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Co to jest:"
+            android:textSize="30dp"
+            android:id="@+id/quest5"
+            android:layout_marginTop="50dp"
+            android:layout_below="@id/keke" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/wieza"
+            android:src="@drawable/wieza"
+            android:layout_below="@id/quest5"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/wieza"
+            android:id="@+id/r5"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Piramida Cheopsa"
+                android:id="@+id/r5f" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wieża Eiffla"
+                android:id="@+id/r5t" />
+        </RadioGroup>
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+</ScrollView>
